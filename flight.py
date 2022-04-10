@@ -1,12 +1,8 @@
 # imporitng the libraires
 from re import X
 import streamlit as st
-import pickle
 import joblib
 save=joblib.load('save.joblib')
-
-# pickle_in = open('treeReg.pkl', 'rb')
-# classifier = pickle.load(pickle_in)
 
 st.title('Flight prediction app')
 left, right=st.columns(2)
