@@ -1,7 +1,6 @@
 # imporitng the libraires
 from re import X
 import streamlit as st
-import pandas as pd
 import pickle
 import joblib
 save=joblib.load('save.joblib')
